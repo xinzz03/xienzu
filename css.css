@@ -1,0 +1,90 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+    
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+}
+
+.whatsapp-icon a {
+    display: block;
+    width: 50px; 
+    height: 50px; 
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+
+.whatsapp-icon a:hover {
+    background-color: #128c7e; 
+}
+
+.container {
+    background-color: black;
+    background: radial-gradient(#000000,rgb(0, 0, 0));
+}
+.navbar{
+    background-color: black;
+    height: 10vh;
+    background: radial-gradient(#000000,rgb(0, 0, 0));
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.navbar2{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+.navbar2 :hover{
+    background-color :rgb(146, 14, 14);
+    transition : 0.2s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 8px;
+}
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+.gambar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+.a-gambar {
+    background-color: white;
+    width: 710px;
+    height: 470px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+}
+.footer{
+    height: 10vh;
+    background-color: rgb(red, green, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tugas{
+    font-size: 40px;
+}

@@ -1,0 +1,66 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: radial-gradient(#000000,rgb(0, 0, 0));
+}
+.navbar{
+    background: radial-gradient(#000000,rgb(0, 0, 0));
+    height: 10vh;
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.navbar2{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    
+}
+.navbar2 :hover{
+    background-color :white;
+    transition : 0.2s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 8px;
+}
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+.gambar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+    
+}
+.a-gambar {
+    background-color: white;
+    width: 710px;
+    height: 470px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+}
+.text-background{
+    background-color: red;
+}
+.footer{
+    height: 10vh;
+    background-color: rgb(red, green, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tugas{
+    font-size: 40px;
+}
